@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="73">
+    <author>AgrarModding</author>
+    <version>1.0.0.1</version>
+    <title>
+        <en>Fortuna FTM Pack DK edit</en>
+    </title>
+<description>
+<en><![CDATA[
+The aluminum tipping bridge -Fortuna ALU CARGO- for the dump truck series provides the customer with another variant as a transport solution.
+
+A high loading volume, a low dead weight as well as high stability is what everyone who is in the transport business wants. Fortuna has now implemented a weight-optimized transport solution for its dump truck series by combining two different materials.
+
+The new Fortuna tandem dump truck type: FTM 300 / 9.0 -ALU CARGO- is the combination of a solid chassis made of steel and a dump body made of aluminum. These two materials convince with their corresponding advantages such as stability and low dead weight. With a loading volume of approx. 53 cubic meters, air-suspended chassis, self-steering axle and 650/55 R 26.5 tires, the dump truck, equipped with a 7,500 mm long tipping body, has a tare weight of only 6,900 kg.
+
+The weight advantage resulting from this combination compared with steel dump trucks of the same volume benefits the payload with a permissible total weight of 24,000 kg for this tandem dump truck. The implementation of further body lengths made of aluminum is also possible with immediate effect.
+
+Fortuna FTM300
+Price: 90000$
+Capacity: 53.000 liters
+
+Fortuna FTM200
+Price: 50500$
+Capacity: 44.300 liters
+
+Configuration options:
+-wheels
+-Color selection for body
+-Underride protection
+
+Changelog 1.0.0.1:
+- Color override fixed
+- Fortuna Alu Cargo 200 added
+]]></en>
+<de><![CDATA[
+Durch die Aluminiumkippbrücke -Fortuna ALU CARGO- für die Muldenkipperbaureihe steht dem Kunden eine weitere Variante als Transportlösung zur Verfügung
+
+Ein hohes Ladevolumen, ein niedriges Eigengewicht als auch hohe Stabilität wünscht sich ein jeder, der im Transportgeschäft unterwegs ist. Die Firma Fortuna hat nun durch die Kombination zweier unterschiedlicher Werkstoffe eine gewichtsoptimierte Transportlösung für seine Muldenkipperbaureihe umgesetzt.
+
+Der neue Fortuna-Triedem-Muldenkipper Typ: FTM 300 / 9.0 -ALU CARGO- ist die Verbindung von einem soliden Fahrgestell aus Stahl und einer Kippbrücke aus Aluminium. Diese beiden Werkstoffe überzeugen mit Ihren entsprechenden Vorteilen wie Stabilität und geringem Eigengewicht. Bei einem Ladevolumen von circa 53 Kubikmetern, luftgefedertem Fahrwerk, Nachlauflenkachse und einer Bereifung von 650/55 R 26.5 bringt der, mit einer 9.000 mm langen Kippbrücke ausgerüstete Muldenkipper, ein Eigengewicht von nur 6.900 kg auf die Waage.
+
+Der neue Fortuna-Tandem-Muldenkipper Typ: FTM 200 / 7.5 -ALU CARGO- ist die Verbindung von einem soliden Fahrgestell aus Stahl und einer Kippbrücke aus Aluminium. Diese beiden Werkstoffe überzeugen mit Ihren entsprechenden Vorteilen wie Stabilität und geringem Eigengewicht. Bei einem Ladevolumen von circa 44.3 Kubikmetern, luftgefedertem Fahrwerk, Nachlauflenkachse und einer Bereifung von 650/55 R 26.5 bringt der, mit einer 7.500 mm langen Kippbrücke ausgerüstete Muldenkipper, ein Eigengewicht von nur 6.900 kg auf die Waage.
+
+Der durch diese Verbindung resultierende Gewichtsvorteil zu gleichvolumigen Muldenkippern aus Stahl kommt der Nutzlast bei einem zulässigen Gesamtgewicht von 24.000 kg bei diesem Tandemkipper zu Gute. Auch die Umsetzung von weiteren Aufbaulängen aus Aluminum ist ab sofort möglich.
+
+Fortuna FTM300
+Preis: 90000 €
+Kapazität: 53.000 Liter
+
+Fortuna FTM200
+Preis: 50500 €
+Kapazität: 44.300 Liter
+
+Konfigurationsmöglichkeiten:
+-Reifen
+-Farbwahl für die Mulde
+-Unterfahrschutz
+
+Changelog 1.0.0.1:
+Farbüberschreibung gefixt
+Fortuna Alu Cargo 200 Hinzugefügt
+Beschreibung gefixt/ausgebessert
+]]></de>
+</description>
+    <iconFilename>icons/icon_FTM_pack.dds</iconFilename>
+    
+	<multiplayer supported="true" />
+	
+	 <storeItems>
+        <storeItem xmlFilename="xml/ftm300Cargo.xml" />
+		<storeItem xmlFilename="xml/ftm200Cargo.xml" />
+    </storeItems>
+
+	<l10n filenamePrefix="language/l10n"/>	
+
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua"/>
+    </extraSourceFiles>
+	
+	<newcategory name="DennisKtools" title="DennisK" type="TOOL" img="Categories/CategoryTools.png" />
+
+</modDesc>

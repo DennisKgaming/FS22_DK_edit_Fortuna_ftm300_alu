@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<wheel>
+	<brand>ASCENSO</brand>
+    <name>FTR170</name>
+    <default>
+        <physics radius="0.65" width="0.71" mass="0.069" tireType="mud" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2" />
+        <tire filename="wheels/FTR170/R26_5.i3d" node="2" maxDeformation="0.044" isCareWheel="false" tireTrackAtlasIndex="14" />
+        <outerRim filename="$data/shared/wheels/rims/rim001.i3d" node="0|0" widthAndDiam="23 26.5" />
+        <innerRim filename="$data/shared/wheels/rims/rim001.i3d" nodeLeft="2|0" nodeRight="2|1" widthAndDiam="23 26.5" />
+    </default>
+</wheel>

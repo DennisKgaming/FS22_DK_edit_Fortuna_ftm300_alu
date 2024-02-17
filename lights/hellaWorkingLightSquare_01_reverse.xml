@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<light>
+    <filename>$data/shared/assets/lights/hella/hellaWorkingLightSquare_01.i3d</filename>
+    <rootNode node="0" />
+    <defaultLight node="0|0|0" lightTypes="1" intensity="25"/>
+    <defaultLight node="0|0|1" lightTypes="1" intensity="1"/>
+	<reverseLight node="0|0|0" intensity="25"/>
+    <rotationNode name="rotationNode1" node="0|0" />
+</light>
